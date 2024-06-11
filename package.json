@@ -1,0 +1,20 @@
+{
+  "name": "message-tip",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "pm2 start ./index.js",
+    "log": "pm2 log",
+    "stop": "pm2 stop all"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cheerio": "^1.0.0-rc.12",
+    "dayjs": "^1.11.11",
+    "nodemailer": "^6.9.13",
+    "pm2": "^5.4.0",
+    "urllib": "^3.25.0"
+  }
+}
